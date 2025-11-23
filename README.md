@@ -36,7 +36,7 @@ Also feel free to contribute and do pull requests on this project. People use wo
 </p>
 
 <h2>Improve this piece of code:</h2>
-<p>The following code can be found in **sodium/src/client.py**
+<p>The following code can be found in **sodium/src/client.py**</p>
 ```python
     async def start(self):
         try:
@@ -47,9 +47,8 @@ Also feel free to contribute and do pull requests on this project. People use wo
                     await asyncio.gather(*self.tasks)
         except Exception as e:
             print(f"Error starting connection: {e}")
-```
 
-</p>
+
 
 
 
