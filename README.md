@@ -37,9 +37,7 @@ Also feel free to contribute and do pull requests on this project. People use wo
 
 <h2>Improve this piece of code:</h2>
 <p>The following code can be found in **sodium/src/client.py**</p>
-<pre>
-<code class="language-python">
-# Example Python code
+```python
     async def start(self):
         try:
             async with aiohttp.ClientSession() as session:
@@ -50,7 +48,9 @@ Also feel free to contribute and do pull requests on this project. People use wo
 
         except Exception as e:
             print(f"Error starting connection: {e}")
-</pre>
+```
+
+
 
 
 
