@@ -28,13 +28,30 @@
 
 <pre><code>py main.py</code></pre>
 
-
 <h2>Support me:</h2>
 <p>
 Before blindly copying the code, please read through it! Making stuff like this takes a while, so please appericate and give me feedback to make my code better!
 Also feel free to contribute and do pull requests on this project. People use words like <strong>"Skids"</strong> and such. Please don't be a skid or anything like that
  Be genuine and give me credit, if you don't want to give me credit, then what can I do? haha anyways thanks <3
 </p>
+
+<h2>Improve this piece of code:</h2>
+<p>The following code can be found in **sodium/src/client.py**</p>
+<pre>
+<code class="language-python">
+# Example Python code
+    async def start(self):
+        try:
+            async with aiohttp.ClientSession() as session:
+                async with session.ws_connect(self.gateway_url, max_msg_size=20 * 1024 * 1024) as ws:
+                    await self.send_presence(ws)
+                    self.tasks = [self._handle_events(ws)]
+                    await asyncio.gather(*self.tasks)
+
+        except Exception as e:
+            print(f"Error starting connection: {e}")
+</pre>
+
 
 
 
