@@ -14,4 +14,12 @@
     <li>Feature 3: Fast & reliable</li>
     <li>Feature 3: Fast & reliable</li>
   </ul>
+
 </p>
+
+
+<h2>Usage:</h2>
+
+<p>Example of starting the application:</p>
+
+<pre><code>py main.py</code></pre>
