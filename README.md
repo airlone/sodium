@@ -4,6 +4,10 @@
 
 <h1 align="center">Sodium</h1>
 
+<p>
+ A fast & reliable vanity sniper for discord server.
+</p>
+
 <h2>About the Project:</h2>
 
 <p>
@@ -23,3 +27,4 @@
 <p>Example of starting the application:</p>
 
 <pre><code>py main.py</code></pre>
+
