@@ -21,10 +21,18 @@
 
 </p>
 
+<h2>Support me:</h2>
+<p>
+Before blindly copying the code, please read through it! Making stuff like this takes a while, so please appericate and give me feedback to make my code better!
+Also feel free to contribute and do pull requests on this project. People use words like <strong>"Skids"</strong> and such. Please don't be a skid or anything like that
+ Be genuine and give me credit, if you don't want to give me credit, then what can I do? haha anyways thanks <3
+</p>
+
 
 <h2>Usage:</h2>
 
 <p>Example of starting the application:</p>
 
 <pre><code>py main.py</code></pre>
+
 
