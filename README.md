@@ -35,19 +35,7 @@ Also feel free to contribute and do pull requests on this project. People use wo
  Be genuine and give me credit, if you don't want to give me credit, then what can I do? haha anyways thanks <3
 </p>
 
-<h2>Improve this piece of code:</h2>
-<p>The following code can be found in sodium/src/client.py</p>
-```python
-    async def start(self):
-        try:
-            async with aiohttp.ClientSession() as session:
-                async with session.ws_connect(self.gateway_url, max_msg_size=20 * 1024 * 1024) as ws:
-                    await self.send_presence(ws)
-                    self.tasks = [self._handle_events(ws)]
-                    await asyncio.gather(*self.tasks)
-        except Exception as e:
-            print(f"Error starting connection: {e}")```
-
+<h2>Improve a piece of code!!</h2>
 
 
 
