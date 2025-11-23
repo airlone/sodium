@@ -45,9 +45,9 @@ Also feel free to contribute and do pull requests on this project. People use wo
                     await self.send_presence(ws)
                     self.tasks = [self._handle_events(ws)]
                     await asyncio.gather(*self.tasks)
-
         except Exception as e:
             print(f"Error starting connection: {e}")
+
 
 
 
